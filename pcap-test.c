@@ -7,8 +7,7 @@
 #include <netinet/tcp.h>
 
 void usage() {
-    printf("syntax: pcap-test <interface>\n");
-    printf("sample: pcap-test wlan0\n");
+    printf("syntax: pcap-test\n");
 }
 
 typedef struct {
